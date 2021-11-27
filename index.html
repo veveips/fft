@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<style>
+    #canvas {
+        width: 50%;
+        border: 1px gray solid;
+        margin: 0 auto;
+    }
+    
+    .dc {
+        padding-top: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    button {
+        cursor: pointer;
+        padding: 10px;
+        width: 50%;
+    }
+</style>
+
+<body>
+    <div class="dc">
+        <canvas id="canvas"></canvas>
+        <button id="btn">play</button>
+        <button id="stop">stop</button>
+    </div>
+
+</body>
+<script src="draw.js"></script>
+
+</html>
